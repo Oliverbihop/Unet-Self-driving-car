@@ -72,7 +72,7 @@ def model():
 path1= os.getcwd()
 print(path1)
 model = model()
-model.load_weights(str(path1)+'/model_104.h5')
+model.load_weights('model_104.h5')
 def segmentation(img):
 	t=time.time()
 	x = read_image(img)
