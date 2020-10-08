@@ -71,7 +71,7 @@ def model():
 	return model
 
 model = model()
-model.load_weights('model_104.h5')
+model.load_weights('./Unet-car/model_104.h5')
 def segmentation(img):
 	t=time.time()
 	x = read_image(img)
