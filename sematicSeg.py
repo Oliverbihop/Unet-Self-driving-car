@@ -69,10 +69,9 @@ def model():
 	
 	model = Model(inputs, x)
 	return model
-path1= os.getcwd()
-print(path1)
+
 model = model()
-model.load_weights(path1+'/model/model_104.h5')
+model.load_weights(os.getcwd()+'/model/model_104.h5')
 def segmentation(img):
 	t=time.time()
 	x = read_image(img)
