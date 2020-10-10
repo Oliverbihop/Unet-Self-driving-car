@@ -98,8 +98,8 @@ if __name__ == '__main__':
     argparser = argparse.ArgumentParser(
         description='Run Road Segmentation Model on a video')
     argparser.add_argument(
-        '-m',
-        '--model', default="model_104.h5",
+        'model',
+        type=str,
         help='path to model file')
     args = argparser.parse_args()
 
