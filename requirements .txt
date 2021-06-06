@@ -1,0 +1,14 @@
+flask==1.1.2
+imutils==0.5.4
+opencv-python==4.1.1.26
+opencv-contrib-python==4.1.1.26
+numpy==1.19.1
+matplotlib
+Pillow==8.1.0
+python-engineio==3.13.2
+python-dateutil==2.8.1
+python-socketio==4.6.0
+eventlet
+tensorflow==1.15.0
+keras==2.3.1
+h5py==2.10.0
